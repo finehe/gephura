@@ -1,0 +1,34 @@
+
+{
+  "navLinks": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Gephura",
+      "subtitle": "Build Your Next-Gen Enterprise Service",
+      "description": "Providing innovative enterprise solutions to drive digital transformation"
+    },
+    "features": {
+      "innovation": {
+        "title": "Product Innovation",
+        "description": "Leading technical solutions providing competitive edge"
+      },
+      "support": {
+        "title": "Service Support",
+        "description": "24/7 technical support ensuring business continuity"
+      },
+      "custom": {
+        "title": "Custom Development",
+        "description": "Personalized solutions based on your specific needs"
+      }
+    },
+    "cta": {
+      "title": "Ready to start your digital transformation journey?",
+      "button": "Contact Us"
+    }
+  }
+}
