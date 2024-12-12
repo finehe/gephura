@@ -24,6 +24,12 @@ COPY . .
 ENV NEXT_TELEMETRY_DISABLED 1
 ENV NODE_ENV production
 
+# 添加调试信息
+RUN echo "Node version:" && node -v
+RUN echo "NPM version:" && npm -v
+RUN echo "Directory contents:" && ls -la
+RUN echo "Package.json contents:" && cat package.json
+
 # 构建应用
 RUN npm run build
 
